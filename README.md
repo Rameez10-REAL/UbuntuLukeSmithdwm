@@ -28,9 +28,8 @@ I haven't kept `man dwm`/`dwm.1` updated though. PRs welcome on that, lol.
 ## Installation for newbs
 
 ```bash
+sudo apt-get install git xorg libx11-dev libxft-dev libxinerama-dev
 git clone https://github.com/LukeSmithxyz/dwm.git
 cd dwm
 sudo make install
 ```
-
-There is also a `PKGBUILD` usable on distributions with pacman. Run `makepkg -si` instead of `sudo make install`.
