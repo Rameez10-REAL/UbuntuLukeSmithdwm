@@ -32,5 +32,13 @@ sudo apt-get install git xorg libx11-dev libxft-dev libxinerama-dev
 git clone https://github.com/LukeSmithxyz/dwm.git
 cd dwm
 sudo make install
+touch .xinitrc
+vim .xinitrc
+and paste
+exec dwm &
+xrdb ~/.Xresources &
+exec slstatus
+xrandr -s 1920x1080
+
 ```
 (thanks to this guide for fixing the errors of the main branch lol https://scribe.privacydev.net/hacker-toolbelt/dwm-windows-manager-in-ubuntu-14958224a782)
