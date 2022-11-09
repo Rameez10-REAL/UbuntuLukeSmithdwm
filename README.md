@@ -39,6 +39,23 @@ exec dwm &
 xrdb ~/.Xresources &
 exec slstatus
 xrandr -s 1920x1080
+Escape
+:x
+cd /usr/share/xsessions
+sudo vim dwm.desktop
+and paste
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dwm
+Comment=the dynamic window manager
+Exec=dwm
+Icon=dwm
+Type=XSession
+Escape
+:x
+sudo logout
+Then log in with DWM
+
 
 ```
 (thanks to this guide for fixing the errors of the main branch lol https://scribe.privacydev.net/hacker-toolbelt/dwm-windows-manager-in-ubuntu-14958224a782)
