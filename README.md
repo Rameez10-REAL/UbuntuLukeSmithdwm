@@ -33,3 +33,4 @@ git clone https://github.com/LukeSmithxyz/dwm.git
 cd dwm
 sudo make install
 ```
+(thanks to this guide for fixing the errors of the main branch lol https://scribe.privacydev.net/hacker-toolbelt/dwm-windows-manager-in-ubuntu-14958224a782)
