@@ -32,6 +32,7 @@ sudo apt-get install git xorg libx11-dev libxft-dev libxinerama-dev
 git clone https://github.com/LukeSmithxyz/dwm.git
 cd dwm
 vim config.h #Make sure that the terminal and browers is to your choice
+sudo make
 sudo make install
 touch .xinitrc
 vim .xinitrc
