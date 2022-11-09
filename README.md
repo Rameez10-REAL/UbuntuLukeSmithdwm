@@ -28,7 +28,10 @@ I haven't kept `man dwm`/`dwm.1` updated though. PRs welcome on that, lol.
 ## Installation for newbs
 
 ```bash
-sudo apt-get install git xorg libx11-dev libxft-dev libxinerama-dev suckless-tools -y
+sudo apt-get install git xorg libx11-dev libxft-dev libxinerama-dev suckless-tools libharfbuzz-dev -y
+cd st
+sudo make install
+cd
 git clone https://github.com/LukeSmithxyz/dwm.git
 cd dwm
 vim config.h #Make sure that the terminal and browers is to your choice
