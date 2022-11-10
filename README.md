@@ -62,13 +62,8 @@ use this tool to get a working multi monitor set up command (make sure to add re
 sudo logout
 Then log in with DWM
 Run the xrandr command in DWM (Use Super + D to run your terminal)
-mkdir .dwm
-cd .dwm
-vim autostart.sh
-add xrandar commad
-:x
-sudo chmod +x autostart.sh
-
+Follow this guide and add xrander to the autostart
+https://youtu.be/NC7Yw93FYEc?t=604
 
 ```
 
