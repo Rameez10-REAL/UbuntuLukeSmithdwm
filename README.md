@@ -28,7 +28,7 @@ I haven't kept `man dwm`/`dwm.1` updated though. PRs welcome on that, lol.
 ## Installation for newbs
 
 ```bash
-sudo apt-get install git xorg libx11-dev libxft-dev libxinerama-dev suckless-tools libharfbuzz-dev -y
+sudo apt-get install git xorg libx11-dev libxft-dev libxinerama-dev suckless-tools libharfbuzz-dev xrandr -y
 cd st
 sudo make install
 cd
