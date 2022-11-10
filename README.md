@@ -63,7 +63,7 @@ sudo logout
 Then log in with DWM
 Run the xrandr command in DWM (Use Super + D to run your terminal)
 Follow this guide and add xrander to the autostart
-https://youtu.be/NC7Yw93FYEc?t=604
+https://www.ubuntupit.com/how-to-auto-execute-linux-startup-scripts-and-commands/
 
 ```
 
