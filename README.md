@@ -70,7 +70,8 @@ Important Keybindings
 
 Super + D to run apps
 Super + Q to close apps
-Super + B to enable free floting windows (hold Super when moving window)
+Super + B to enable free floting windows
+Super = Alt Drag
 killall dwm ends dwm
 
 (thanks to this guide for fixing the errors of the main branch lol https://scribe.privacydev.net/hacker-toolbelt/dwm-windows-manager-in-ubuntu-14958224a782)
