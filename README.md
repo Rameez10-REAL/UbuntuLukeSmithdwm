@@ -23,6 +23,7 @@ I haven't kept `man dwm`/`dwm.1` updated though. PRs welcome on that, lol.
 - [shiftview](https://dwm.suckless.org/patches/nextprev/): Cycle through tags (<kbd>super+g/;</kbd>).
 - [vanitygaps](https://dwm.suckless.org/patches/vanitygaps/): Gaps allowed across all layouts.
 - [swallow patch](https://dwm.suckless.org/patches/swallow/): if a program run from a terminal would make it inoperable, it temporarily takes its place to save space.
+- [AutoStart](https://github.com/axelGschaider/dwm-patch-autostart.sh/): Allows you to setup an autostart command 
 
 
 ## Installation for newbs
@@ -61,6 +62,12 @@ use this tool to get a working multi monitor set up command (make sure to add re
 sudo logout
 Then log in with DWM
 Run the xrandr command in DWM (Use Super + D to run your terminal)
+mkdir .dwm
+cd .dwm
+vim autostart.sh
+add xrandar commad
+:x
+sudo chmod +x autostart.sh
 
 
 ```
