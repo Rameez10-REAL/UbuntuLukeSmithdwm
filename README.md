@@ -57,6 +57,7 @@ Icon=dwm
 Type=XSession
 Escape
 :x
+use this tool to get a working multi monitor set up command (make sure to add refresh rate if needed (-r )  add the xrandr command into the end of the .xinitrc file
 sudo logout
 Then log in with DWM
 
