@@ -73,6 +73,8 @@ Super + Q to close apps
 Super + B to enable free floting windows
 Super + Left Mouse = Alt Drag
 Super + Right Mouse = Resizing windows
+Super + F for full screen
 killall dwm ends dwm
+
 
 (thanks to this guide for fixing the errors of the main branch lol https://scribe.privacydev.net/hacker-toolbelt/dwm-windows-manager-in-ubuntu-14958224a782)
