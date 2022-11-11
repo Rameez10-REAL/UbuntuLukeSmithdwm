@@ -75,6 +75,7 @@ Super + Left Mouse = Alt Drag
 Super + Right Mouse = Resizing windows
 Super + F for full screen
 killall dwm ends dwm
+Super + V opens search
 
 
 (thanks to this guide for fixing the errors of the main branch lol https://scribe.privacydev.net/hacker-toolbelt/dwm-windows-manager-in-ubuntu-14958224a782)
